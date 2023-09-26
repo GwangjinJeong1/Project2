@@ -1,0 +1,12 @@
+.container{
+    min-width: 900px;
+}
+.wrapper{
+    position: relative;
+    overflow: auto;
+}
+.green{
+    background-color: #04AA6D;
+    color: #ffffff;
+}
+
