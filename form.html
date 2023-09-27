@@ -6,6 +6,63 @@
     <title>Document</title>
 </head>
 <body>
-    form page
+    <h1>Form page</h1>
+    <form>
+        <label for="text">Text Fields</label><br>
+        <input type="text" id="text" name="text" value="Text Field"><br>
+        Radio Buttons<br>
+        <input type="radio" id="android" name="os" value="Android">
+        <label for="android">Android  </label>
+        <input type="radio" id="ios" name="os" value="IOS">
+        <label for="ios">IOS  </label>
+        <input type="radio" id="linux" name="os" value="Linux">
+        <label for="linux">Linux</label><br>
+        Checkboxes<br>
+        <input type="checkbox" id="c" name="c" value="C">
+        <label for="c">C  </label>
+        <input type="checkbox" id="java" name="java" value="Java">
+        <label for="java">Java  </label>
+        <input type="checkbox" id="python" name="python" value="Python">
+        <label for="python">Python  </label><br>
+        <label for="languages">Select Element</label><br>
+        <select id="languages" name="languages">
+            <option value="c">C</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+        </select><br>
+        <label for="date">Date Field</label><br>
+        <input type="date" id="date" name="date"><br>
+        <label for="textarea">Textarea</label><br>
+        <textarea name="textarea" rows="5" cols="10">This is Textarea.</textarea><br>
+        <labe for="fieldset">Fieldset</labe><br>
+        <fieldset style="width: 30px;">
+            <legend>Legend</legend>
+            
+            <label for="group">optgroup element</label><br>
+            <select name="group" id="group">
+                <optgroup label="Android">
+                    <option value="Java">Java</option>
+                    <option value="Kotlin">Kotlin</option>
+                </optgroup>
+                <optgroup label="IOS">
+                    <option value="object-C">Object-C</option>
+                    <option value="swift">Swift</option>
+                </optgroup>
+            </select><br>
+            <label for="color">Color</label><br>
+            <input type="color" id="color" name="color" value="#D09AFF"><br>
+            <label for="datalist">Datalist</label><br>
+            <input list="list" name="list">
+            <datalist id="list">
+                <option value="C">
+                <option value="C++">
+                <option value="Java">
+                <option value="Python">
+                <option value="Swift">
+            </datalist><br>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
